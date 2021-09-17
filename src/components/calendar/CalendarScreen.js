@@ -18,24 +18,11 @@ import { AddNewFab } from '../ui/AddNewFab';
 import { DeleteEventFab } from '../ui/DeleteEventFab';
 moment.locale('es');
 const localizer = momentLocalizer(moment) // or globalizeLocalizer
-// const events = [
-//   {
-//     title: 'Birth Day',
-//     start: moment().toDate(),
-//     end: moment().add(2, 'hours').toDate(),
-//     allDay: true,
-//     notes: 'Felicitar',
-//     user: {
-//       _id: 123,
-//       name: 'Daniel',
-//     }
-//     //resource?: any,
-//   }
-// ]
+
 export const CalendarScreen = () => {
   const dispatch = useDispatch();
   const { events, activeEvent } = useSelector(state => state.calendar);
-  const [lastView, setLastView] = useState(localStorage.getItem('lastView'));
+  const [lastView, setLastView] = useState(localStorage.getItem('lastView') || 'month');
 
   const eventStyleGetter = (event, start, end, isSelected) => {
     const style = {
@@ -60,6 +47,7 @@ export const CalendarScreen = () => {
 
   const onViewChange = (e) => {
     setLastView(e);
+    console.log(e);
     localStorage.setItem('lastView', e);
   }
 

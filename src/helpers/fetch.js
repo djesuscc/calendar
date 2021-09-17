@@ -1,7 +1,5 @@
 const baseUrl = process.env.REACT_APP_API_URL;
-
 const fetchNoToken = (path, data, method = 'GET') => {
-  
   const url = `${baseUrl}/${path}`;
   if (method === 'GET') {
     return fetch(url);
@@ -40,5 +38,5 @@ const fetchToken = (path, data, method = 'GET') => {
 
 export {
   fetchNoToken,
-  fetchToken, 
+  fetchToken,
 }
