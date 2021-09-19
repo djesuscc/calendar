@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import moment from 'moment';
 import {
   Calendar,
@@ -13,7 +13,7 @@ import { uiOpenModal } from '../../actions/ui';
 
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import 'moment/locale/es';
-import { eventClearActiveEvent, eventSetActive } from '../../actions/events';
+import { eventClearActiveEvent, eventSetActive, eventStartLoading } from '../../actions/events';
 import { AddNewFab } from '../ui/AddNewFab';
 import { DeleteEventFab } from '../ui/DeleteEventFab';
 moment.locale('es');
@@ -21,12 +21,21 @@ const localizer = momentLocalizer(moment) // or globalizeLocalizer
 
 export const CalendarScreen = () => {
   const dispatch = useDispatch();
-  const { events, activeEvent } = useSelector(state => state.calendar);
+  useEffect(() => {
+    dispatch(eventStartLoading());
+  }, [dispatch])
+
+  const { 
+    calendar: { events, activeEvent },
+    auth: { uid },
+  } = useSelector(state => state);
   const [lastView, setLastView] = useState(localStorage.getItem('lastView') || 'month');
 
   const eventStyleGetter = (event, start, end, isSelected) => {
+    const { user: { _id: id } } = event; 
+    
     const style = {
-      backgroundColor: '#367CF7',
+      backgroundColor: (uid === id) ? '#367CF7' : '#465660',
       borderRadius: '0px',
       opacity: '0.8',
       display: 'block',
@@ -47,7 +56,6 @@ export const CalendarScreen = () => {
 
   const onViewChange = (e) => {
     setLastView(e);
-    console.log(e);
     localStorage.setItem('lastView', e);
   }
 

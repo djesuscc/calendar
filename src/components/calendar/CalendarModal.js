@@ -5,7 +5,11 @@ import DateTimePicker from 'react-datetime-picker';
 import Modal from 'react-modal';
 import { useDispatch, useSelector } from 'react-redux';
 import { uiCloseModal } from '../../actions/ui';
-import { eventAddNew, eventClearActiveEvent, eventUpdated } from '../../actions/events';
+import { 
+  eventClearActiveEvent, 
+  eventStartNew, 
+  eventStartUpdate, 
+} from '../../actions/events';
 
 const customStyles = {
   content: {
@@ -31,7 +35,7 @@ export const CalendarModal = () => {
   const dispatch = useDispatch();
   const {
     ui: { modalOpen },
-    calendar: { activeEvent }
+    calendar: { activeEvent },
   } = useSelector(state => state);
 
   const [titleValid, setTitleValid] = useState(true)
@@ -92,12 +96,9 @@ export const CalendarModal = () => {
     }
 
     if (!!activeEvent) {
-      dispatch(eventUpdated(formValues));
+      dispatch(eventStartUpdate(formValues));
     } else {
-      dispatch(eventAddNew({
-        ...formValues,
-        id: new Date().getTime()
-      }));
+      dispatch(eventStartNew(formValues));
     }
 
     setTitleValid(true);

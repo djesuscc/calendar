@@ -5,7 +5,7 @@ import { startLogout } from '../../actions/auth';
 export const Navbar = () => {
   const dispatch = useDispatch();
   const { name } = useSelector(state => state.auth);
-
+  
   return (
     <div className="navbar navbar-dark bg-dark mb-4">
       <span className="navbar-brand">
