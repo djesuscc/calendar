@@ -43,18 +43,16 @@ export const startRegister = (values) => {
     if (ok) {
       localStorage.setItem('token', token);
       localStorage.setItem('token-init-date', new Date().getTime());
+      dispatch(login({
+        uid,
+        name
+      }));
       Swal.fire({
-        //title: msg,
         text: 'Register Success',
         icon: 'success',
         showConfirmButton: false,
         timer: 1500
-      }).then(() => {
-        dispatch(login({
-          uid,
-          name
-        }));
-      });
+      })
     } else {
       Swal.fire('Error', msg, 'error');
     }
