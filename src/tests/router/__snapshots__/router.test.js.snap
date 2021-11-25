@@ -56,7 +56,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
         <span
           className="rbc-toolbar-label"
         >
-          octubre 2021
+          noviembre 2021
         </span>
         <span
           className="rbc-btn-group"
@@ -190,136 +190,6 @@ exports[`Test <AppRouter /> should display private route 1`] = `
             className="rbc-row-bg"
           >
             <div
-              className="rbc-day-bg rbc-off-range-bg"
-            />
-            <div
-              className="rbc-day-bg rbc-off-range-bg"
-            />
-            <div
-              className="rbc-day-bg rbc-off-range-bg"
-            />
-            <div
-              className="rbc-day-bg rbc-off-range-bg"
-            />
-            <div
-              className="rbc-day-bg"
-            />
-            <div
-              className="rbc-day-bg"
-            />
-            <div
-              className="rbc-day-bg"
-            />
-          </div>
-          <div
-            className="rbc-row-content"
-            role="row"
-          >
-            <div
-              className="rbc-row "
-            >
-              <div
-                className="rbc-date-cell rbc-off-range"
-                key="header_0"
-                role="cell"
-              >
-                <a
-                  href="#"
-                  onClick={[Function]}
-                  role="cell"
-                >
-                  27
-                </a>
-              </div>
-              <div
-                className="rbc-date-cell rbc-off-range"
-                key="header_1"
-                role="cell"
-              >
-                <a
-                  href="#"
-                  onClick={[Function]}
-                  role="cell"
-                >
-                  28
-                </a>
-              </div>
-              <div
-                className="rbc-date-cell rbc-off-range"
-                key="header_2"
-                role="cell"
-              >
-                <a
-                  href="#"
-                  onClick={[Function]}
-                  role="cell"
-                >
-                  29
-                </a>
-              </div>
-              <div
-                className="rbc-date-cell rbc-off-range"
-                key="header_3"
-                role="cell"
-              >
-                <a
-                  href="#"
-                  onClick={[Function]}
-                  role="cell"
-                >
-                  30
-                </a>
-              </div>
-              <div
-                className="rbc-date-cell"
-                key="header_4"
-                role="cell"
-              >
-                <a
-                  href="#"
-                  onClick={[Function]}
-                  role="cell"
-                >
-                  01
-                </a>
-              </div>
-              <div
-                className="rbc-date-cell"
-                key="header_5"
-                role="cell"
-              >
-                <a
-                  href="#"
-                  onClick={[Function]}
-                  role="cell"
-                >
-                  02
-                </a>
-              </div>
-              <div
-                className="rbc-date-cell"
-                key="header_6"
-                role="cell"
-              >
-                <a
-                  href="#"
-                  onClick={[Function]}
-                  role="cell"
-                >
-                  03
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="rbc-month-row"
-          role="rowgroup"
-        >
-          <div
-            className="rbc-row-bg"
-          >
-            <div
               className="rbc-day-bg"
             />
             <div
@@ -358,7 +228,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
                   onClick={[Function]}
                   role="cell"
                 >
-                  04
+                  01
                 </a>
               </div>
               <div
@@ -371,7 +241,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
                   onClick={[Function]}
                   role="cell"
                 >
-                  05
+                  02
                 </a>
               </div>
               <div
@@ -384,7 +254,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
                   onClick={[Function]}
                   role="cell"
                 >
-                  06
+                  03
                 </a>
               </div>
               <div
@@ -397,12 +267,90 @@ exports[`Test <AppRouter /> should display private route 1`] = `
                   onClick={[Function]}
                   role="cell"
                 >
-                  07
+                  04
                 </a>
               </div>
               <div
                 className="rbc-date-cell"
                 key="header_4"
+                role="cell"
+              >
+                <a
+                  href="#"
+                  onClick={[Function]}
+                  role="cell"
+                >
+                  05
+                </a>
+              </div>
+              <div
+                className="rbc-date-cell"
+                key="header_5"
+                role="cell"
+              >
+                <a
+                  href="#"
+                  onClick={[Function]}
+                  role="cell"
+                >
+                  06
+                </a>
+              </div>
+              <div
+                className="rbc-date-cell"
+                key="header_6"
+                role="cell"
+              >
+                <a
+                  href="#"
+                  onClick={[Function]}
+                  role="cell"
+                >
+                  07
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rbc-month-row"
+          role="rowgroup"
+        >
+          <div
+            className="rbc-row-bg"
+          >
+            <div
+              className="rbc-day-bg"
+            />
+            <div
+              className="rbc-day-bg"
+            />
+            <div
+              className="rbc-day-bg"
+            />
+            <div
+              className="rbc-day-bg"
+            />
+            <div
+              className="rbc-day-bg"
+            />
+            <div
+              className="rbc-day-bg"
+            />
+            <div
+              className="rbc-day-bg"
+            />
+          </div>
+          <div
+            className="rbc-row-content"
+            role="row"
+          >
+            <div
+              className="rbc-row "
+            >
+              <div
+                className="rbc-date-cell"
+                key="header_0"
                 role="cell"
               >
                 <a
@@ -415,7 +363,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
               </div>
               <div
                 className="rbc-date-cell"
-                key="header_5"
+                key="header_1"
                 role="cell"
               >
                 <a
@@ -428,7 +376,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
               </div>
               <div
                 className="rbc-date-cell"
-                key="header_6"
+                key="header_2"
                 role="cell"
               >
                 <a
@@ -439,48 +387,9 @@ exports[`Test <AppRouter /> should display private route 1`] = `
                   10
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="rbc-month-row"
-          role="rowgroup"
-        >
-          <div
-            className="rbc-row-bg"
-          >
-            <div
-              className="rbc-day-bg"
-            />
-            <div
-              className="rbc-day-bg"
-            />
-            <div
-              className="rbc-day-bg"
-            />
-            <div
-              className="rbc-day-bg"
-            />
-            <div
-              className="rbc-day-bg"
-            />
-            <div
-              className="rbc-day-bg"
-            />
-            <div
-              className="rbc-day-bg"
-            />
-          </div>
-          <div
-            className="rbc-row-content"
-            role="row"
-          >
-            <div
-              className="rbc-row "
-            >
               <div
                 className="rbc-date-cell"
-                key="header_0"
+                key="header_3"
                 role="cell"
               >
                 <a
@@ -493,7 +402,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
               </div>
               <div
                 className="rbc-date-cell"
-                key="header_1"
+                key="header_4"
                 role="cell"
               >
                 <a
@@ -506,7 +415,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
               </div>
               <div
                 className="rbc-date-cell"
-                key="header_2"
+                key="header_5"
                 role="cell"
               >
                 <a
@@ -519,7 +428,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
               </div>
               <div
                 className="rbc-date-cell"
-                key="header_3"
+                key="header_6"
                 role="cell"
               >
                 <a
@@ -530,9 +439,48 @@ exports[`Test <AppRouter /> should display private route 1`] = `
                   14
                 </a>
               </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rbc-month-row"
+          role="rowgroup"
+        >
+          <div
+            className="rbc-row-bg"
+          >
+            <div
+              className="rbc-day-bg"
+            />
+            <div
+              className="rbc-day-bg"
+            />
+            <div
+              className="rbc-day-bg"
+            />
+            <div
+              className="rbc-day-bg"
+            />
+            <div
+              className="rbc-day-bg"
+            />
+            <div
+              className="rbc-day-bg"
+            />
+            <div
+              className="rbc-day-bg"
+            />
+          </div>
+          <div
+            className="rbc-row-content"
+            role="row"
+          >
+            <div
+              className="rbc-row "
+            >
               <div
                 className="rbc-date-cell"
-                key="header_4"
+                key="header_0"
                 role="cell"
               >
                 <a
@@ -545,7 +493,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
               </div>
               <div
                 className="rbc-date-cell"
-                key="header_5"
+                key="header_1"
                 role="cell"
               >
                 <a
@@ -558,7 +506,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
               </div>
               <div
                 className="rbc-date-cell"
-                key="header_6"
+                key="header_2"
                 role="cell"
               >
                 <a
@@ -569,48 +517,9 @@ exports[`Test <AppRouter /> should display private route 1`] = `
                   17
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="rbc-month-row"
-          role="rowgroup"
-        >
-          <div
-            className="rbc-row-bg"
-          >
-            <div
-              className="rbc-day-bg"
-            />
-            <div
-              className="rbc-day-bg"
-            />
-            <div
-              className="rbc-day-bg"
-            />
-            <div
-              className="rbc-day-bg"
-            />
-            <div
-              className="rbc-day-bg"
-            />
-            <div
-              className="rbc-day-bg"
-            />
-            <div
-              className="rbc-day-bg"
-            />
-          </div>
-          <div
-            className="rbc-row-content"
-            role="row"
-          >
-            <div
-              className="rbc-row "
-            >
               <div
                 className="rbc-date-cell"
-                key="header_0"
+                key="header_3"
                 role="cell"
               >
                 <a
@@ -623,7 +532,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
               </div>
               <div
                 className="rbc-date-cell"
-                key="header_1"
+                key="header_4"
                 role="cell"
               >
                 <a
@@ -636,7 +545,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
               </div>
               <div
                 className="rbc-date-cell"
-                key="header_2"
+                key="header_5"
                 role="cell"
               >
                 <a
@@ -649,45 +558,6 @@ exports[`Test <AppRouter /> should display private route 1`] = `
               </div>
               <div
                 className="rbc-date-cell"
-                key="header_3"
-                role="cell"
-              >
-                <a
-                  href="#"
-                  onClick={[Function]}
-                  role="cell"
-                >
-                  21
-                </a>
-              </div>
-              <div
-                className="rbc-date-cell"
-                key="header_4"
-                role="cell"
-              >
-                <a
-                  href="#"
-                  onClick={[Function]}
-                  role="cell"
-                >
-                  22
-                </a>
-              </div>
-              <div
-                className="rbc-date-cell"
-                key="header_5"
-                role="cell"
-              >
-                <a
-                  href="#"
-                  onClick={[Function]}
-                  role="cell"
-                >
-                  23
-                </a>
-              </div>
-              <div
-                className="rbc-date-cell"
                 key="header_6"
                 role="cell"
               >
@@ -696,7 +566,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
                   onClick={[Function]}
                   role="cell"
                 >
-                  24
+                  21
                 </a>
               </div>
             </div>
@@ -748,7 +618,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
                   onClick={[Function]}
                   role="cell"
                 >
-                  25
+                  22
                 </a>
               </div>
               <div
@@ -761,7 +631,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
                   onClick={[Function]}
                   role="cell"
                 >
-                  26
+                  23
                 </a>
               </div>
               <div
@@ -774,7 +644,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
                   onClick={[Function]}
                   role="cell"
                 >
-                  27
+                  24
                 </a>
               </div>
               <div
@@ -787,7 +657,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
                   onClick={[Function]}
                   role="cell"
                 >
-                  28
+                  25
                 </a>
               </div>
               <div
@@ -800,7 +670,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
                   onClick={[Function]}
                   role="cell"
                 >
-                  29
+                  26
                 </a>
               </div>
               <div
@@ -813,7 +683,7 @@ exports[`Test <AppRouter /> should display private route 1`] = `
                   onClick={[Function]}
                   role="cell"
                 >
-                  30
+                  27
                 </a>
               </div>
               <div
@@ -826,7 +696,137 @@ exports[`Test <AppRouter /> should display private route 1`] = `
                   onClick={[Function]}
                   role="cell"
                 >
-                  31
+                  28
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rbc-month-row"
+          role="rowgroup"
+        >
+          <div
+            className="rbc-row-bg"
+          >
+            <div
+              className="rbc-day-bg"
+            />
+            <div
+              className="rbc-day-bg"
+            />
+            <div
+              className="rbc-day-bg rbc-off-range-bg"
+            />
+            <div
+              className="rbc-day-bg rbc-off-range-bg"
+            />
+            <div
+              className="rbc-day-bg rbc-off-range-bg"
+            />
+            <div
+              className="rbc-day-bg rbc-off-range-bg"
+            />
+            <div
+              className="rbc-day-bg rbc-off-range-bg"
+            />
+          </div>
+          <div
+            className="rbc-row-content"
+            role="row"
+          >
+            <div
+              className="rbc-row "
+            >
+              <div
+                className="rbc-date-cell"
+                key="header_0"
+                role="cell"
+              >
+                <a
+                  href="#"
+                  onClick={[Function]}
+                  role="cell"
+                >
+                  29
+                </a>
+              </div>
+              <div
+                className="rbc-date-cell"
+                key="header_1"
+                role="cell"
+              >
+                <a
+                  href="#"
+                  onClick={[Function]}
+                  role="cell"
+                >
+                  30
+                </a>
+              </div>
+              <div
+                className="rbc-date-cell rbc-off-range"
+                key="header_2"
+                role="cell"
+              >
+                <a
+                  href="#"
+                  onClick={[Function]}
+                  role="cell"
+                >
+                  01
+                </a>
+              </div>
+              <div
+                className="rbc-date-cell rbc-off-range"
+                key="header_3"
+                role="cell"
+              >
+                <a
+                  href="#"
+                  onClick={[Function]}
+                  role="cell"
+                >
+                  02
+                </a>
+              </div>
+              <div
+                className="rbc-date-cell rbc-off-range"
+                key="header_4"
+                role="cell"
+              >
+                <a
+                  href="#"
+                  onClick={[Function]}
+                  role="cell"
+                >
+                  03
+                </a>
+              </div>
+              <div
+                className="rbc-date-cell rbc-off-range"
+                key="header_5"
+                role="cell"
+              >
+                <a
+                  href="#"
+                  onClick={[Function]}
+                  role="cell"
+                >
+                  04
+                </a>
+              </div>
+              <div
+                className="rbc-date-cell rbc-off-range"
+                key="header_6"
+                role="cell"
+              >
+                <a
+                  href="#"
+                  onClick={[Function]}
+                  role="cell"
+                >
+                  05
                 </a>
               </div>
             </div>

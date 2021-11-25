@@ -86,11 +86,7 @@ export const CalendarModal = () => {
     const momentEnd = moment(end);
 
     if (momentStart.isSameOrAfter(momentEnd)) {
-      return Swal.fire({
-        title: 'Error',
-        text: 'End date should be grater',
-        icon: 'error'
-      });
+      return Swal.fire('Error','End date should be grater','error');
     }
 
     if (title.trim().length < 2) {
@@ -103,7 +99,6 @@ export const CalendarModal = () => {
       dispatch(eventStartNew(formValues));
     }
 
-    setTitleValid(true);
     closeModal();
   }
 
@@ -116,6 +111,7 @@ export const CalendarModal = () => {
       closeTimeoutMS={200}
       className="modal"
       overlayClassName="modal-fondo"
+      ariaHideApp={process.env.NODE_ENV !== "test"}
     >
       <h1> {(activeEvent) ? 'Editar Evento' : 'Nuevo Evento'} </h1>
       <hr />
